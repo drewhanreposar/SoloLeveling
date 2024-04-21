@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Contact Us</title>
+    <link rel="stylesheet" href="contactus.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+         
+            box-sizing: border-box;
+            background-image: url('images/cartbg.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            box-shadow: 5px 10px #000000f5;
+            font-size: 17px;
+        }
+        
+       header {
+            background-color: #250042a9;
+            width: ;
+            height: 10px;
+            color: white;
+            text-align: center;
+            padding: 40px;
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: Protest Revolution;
+            font-size: 13px;
+        }
+
+        nav {
+            display: flex;
+            flex-direction: row;
+            position: sticky;
+            top:0px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5em;
+            text-align: center;
+            display: block;
+            margin-right: 10px;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 1em;
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+            border-radius: 10px; /* Add rounded corners */
+            margin: 20px; /* Add some margin for better separation from the background */
+        }
+
+        .about-us {
+            width: 100%;
+            max-width: 800px;
+            margin: 1em;
+            padding: 1em;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: white;
+            text-align: center;
+        }
+
+        .about-us p {
+            margin-bottom: 1em;
+        }
+
+        footer {
+            background-color: #250042a9;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 20px; 
+    font-size: 15px;
+    line-height: 1px;
+        }
+
+        @media (max-width: 600px) {
+            .about-us {
+                width: 100%;
+            }
+
+            nav {
+                display: none;
+            }
+
+            header {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1 style="background: #9128A5;
+background: linear-gradient(to right, #9128A5 0%, #400483 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent; font-size: 50px; font-family: Protest Revolution; ">SOLO LEVELING</h1>
+        <nav>
+            <a href="Home.html"><i class="fas fa-home"></i> Home</a>
+            <a href="Services.html"><i class="fas fa-cogs"></i> Services</a>
+            <a href="Registration.html"><i class="fas fa-user-plus"></i> Registration</a>
+            <a href="About.html"><i class="fas fa-info-circle"></i> About Me</a>
+            <a href="References.html"><i class="fas fa-book"></i>Contact Us</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <form>
+            <h1>Contact Us Form</h1>
+            <input type="text" id="firstName" placeholder="First Name" required>
+            <input type="text" id="lastName" placeholder="Last Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="text" id="mobile" placeholder="Mobile" required>
+            <h4>Type Your Message Here...</h4>
+            <textarea required></textarea>
+            <input type="submit" value="Send" id="button">
+        </form>
+    </div>
+    <footer>
+        <p>@2024 project in EMPOWERMENT TECHNOLOGY, made by DREWHAN REPOSAR</p>
+    </footer>
+
+</body>
+
+</html>
