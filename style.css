@@ -274,6 +274,7 @@ background: linear-gradient(0deg, rgba(206,133,255,1) 0%, rgba(146,0,207,0.26875
     padding: 0 10px;
     box-shadow: 0 10px 20px #5555;
     border-radius: 20px;
+    background-color: black;
 }
 .returnCart .list .item .name,
 .returnCart .list .item .returnPrice{
