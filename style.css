@@ -6,7 +6,9 @@ body{
     overflow-x: hidden;
     font-synthesis: 15px;
     background-image: url('images/checkoutbg.jpeg'); /* Add background image here */
-   background-size: cover;
+    background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
 }
 
 a{
@@ -120,6 +122,9 @@ background: linear-gradient(0deg, rgba(206,133,255,1) 0%, rgba(146,0,207,0.26875
     gap: 20px;
     transition: right 1s;
     background-image: url('images/cartbg.jpeg');
+     background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
 }
 
 .cart .buttons .checkout{
@@ -200,6 +205,9 @@ background: linear-gradient(0deg, rgba(206,133,255,1) 0%, rgba(146,0,207,0.26875
 }
 .checkoutLayout .right{
     background-image: url('images/cartbg.jpeg');
+     background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
     border-radius: 20px;
     padding: 40px;
     color: #fff;
