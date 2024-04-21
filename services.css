@@ -23,6 +23,9 @@ body{
   align-items: center;
   font-family: arial;
   background-image: url('images/cartbg.jpeg');
+   background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
 }
 
 .container{
@@ -201,4 +204,4 @@ body{
             
             
         
-        } 
+        }        } 
